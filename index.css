@@ -1,0 +1,114 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #333;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: url("mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#HEADER {
+  position: fixed;
+  height: auto;
+  width: 100vw;
+  top: 0;
+  background: #122121;
+  color: white;
+  -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#result {
+  position: box;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 200px;
+  text-align: center;
+  padding: 10px;
+  background: #FFF;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0.2px 1px rgba(22, 22, 22, 0.4);
+          box-shadow: 0px 0.2px 1px rgba(22, 22, 22, 0.4);
+}
+
+#CONTENT {
+  margin-top: 80px;
+  position: box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100vw;
+  min-height: 100%;
+  color: black;
+}
+
+#CONTENT #tables {
+  margin: 0 auto;
+  background: #DDD;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 3px rgba(22, 22, 22, 0.4);
+          box-shadow: 0px 0px 3px rgba(22, 22, 22, 0.4);
+}
+
+#CONTENT #table {
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 0;
+  padding: 8px;
+  background: #fff;
+}
+
+#CONTENT #table--content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+}
+
+#CONTENT #table--content input {
+  height: 26px;
+  border: 1px solid #121212;
+  border-radius: 5px;
+}
+
+#CONTENT #grade {
+  width: 180px;
+}
+
+#CONTENT #credits {
+  width: 70px;
+}
+
+.credits {
+  position: fixed;
+  background: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 40px;
+  bottom: 0px;
+  padding: 2px;
+}
+
+.credits:hover {
+  color: red;
+  -webkit-box-shadow: 5px -5px 1px #BC273A;
+          box-shadow: 5px -5px 1px #BC273A;
+}
+
+.credits a {
+  color: #222;
+}
+/*# sourceMappingURL=index.css.map */
